@@ -13,13 +13,25 @@
 
   .star2 {
     background-color: white;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+    margin-top: 10%;
+    margin-left: 75%;
+    animation-name: twinkle2;
+    animation-duration: 1s;
+  }
+
+  .star3 {
+    background-color: white;
     height: 20px;
     width: 20px;
     border-radius: 50%;
     animation-iteration-count: infinite;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 25%;
-    animation-name: twinkle2;
+    animation-name: twinkle3;
     animation-duration: 1s;
   }
 
@@ -32,6 +44,13 @@
 
   @keyframes twinkle2 {
     20% {
+      transform: scale(0.5);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes twinkle3 {
+    40% {
       transform: scale(0.5);
       opacity: 0.5;
     }
@@ -52,3 +71,4 @@
 <div id="bg"></div>
 <div class="star1"></div>
 <div class="star2"></div>
+<div class="star3"></div>
