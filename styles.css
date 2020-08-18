@@ -1,0 +1,78 @@
+body {
+  background-color: #36454f;
+}
+#navbar {
+  font-family: "Lucida Sans Typewriter", sans-serif;
+  position: fixed;
+  text-align: center;
+}
+#navbar header {
+  color: white;
+  font-size: 150%;
+  margin-left: 200%;
+  text-decoration: underline;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+}
+#navbar li {
+  float: left;
+  width: 100%;
+}
+#navbar ul a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 16px;
+  color: #ffffff;
+}
+
+#navbar ul a:hover {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 16px;
+  color: #ffffff;
+  background-color: black;
+}
+#navbar ul a:visited {
+  color: #ffffff;
+}
+
+h1 {
+  font-family: "Lucida Sans Typewriter", sans-serif;
+  text-align: center;
+  font-size: 250%;
+  color: #66ff33;
+}
+h2 {
+  font-family: "Lucida Sans Typewriter", sans-serif;
+  color: #15f4ee;
+}
+section {
+  margin-left: 27%;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+}
+code {
+  color: #ff0000;
+  font-size: 125%;
+}
+.code_block {
+  margin: 20px;
+  padding: 10px;
+  background-color: #505f69;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #bc13fe;
+  }
+}
